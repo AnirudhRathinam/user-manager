@@ -1,0 +1,25 @@
+{
+  "name": "filetracker",
+  "version": "1.0.0",
+  "description": "homework tracker",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "MEAN",
+    "Stack"
+  ],
+  "author": "Anirudh Rathinam",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.2.17",
+    "mongoose-validator": "^2.1.0",
+    "morgan": "^1.9.1"
+  }
+}
